@@ -1,0 +1,153 @@
+# База моделей. Оценки 1–5 (5 — лучше). Цены в т.р., классический автомат, нормальное состояние.
+# price_history пополняет ежедневная задача: { date, region, min, median, max, listings, source }
+- id: hyundai-solaris-1
+  make: Hyundai
+  model: Solaris
+  generation: I (RB), рестайлинг 2014
+  years: [2012, 2016]
+  body: [sedan, hatchback]
+  engine: 1.6 Gamma G4FC, 123 л.с., цепь
+  transmission: 4АКПП A4CF1
+  fuel_city_l: 8.5
+  price_rub: { from: 650, to: 850 }
+  scores: { reliability: 4, maintenance_cost: 5, looks: 3, comfort: 3, liquidity: 5 }
+  weak_points:
+    - тонкое ЛКП, сколы
+    - стук задней подвески, жёсткая подвеска
+    - много бывших такси
+    - катализатор на пробегах 150+ тыс.
+  price_history: []
+
+- id: kia-rio-3
+  make: Kia
+  model: Rio
+  generation: III (QB), рестайлинг 2015
+  years: [2012, 2017]
+  body: [sedan, hatchback]
+  engine: 1.6 Gamma G4FC, 123 л.с., цепь
+  transmission: 4АКПП A4CF1
+  fuel_city_l: 8.5
+  price_rub: { from: 650, to: 850 }
+  scores: { reliability: 4, maintenance_cost: 5, looks: 4, comfort: 3, liquidity: 5 }
+  weak_points:
+    - те же, что у Solaris; сборка чуть лучше
+    - такси
+  price_history: []
+
+- id: vw-polo-sedan
+  make: Volkswagen
+  model: Polo sedan
+  generation: V (6R), рестайлинг 2015
+  years: [2011, 2015]
+  body: [sedan]
+  engine: 1.6 CFNA 105 л.с. / CWVA 110 л.с.
+  transmission: 6АКПП Aisin 09G
+  fuel_city_l: 9
+  price_rub: { from: 650, to: 850 }
+  scores: { reliability: 4, maintenance_cost: 4, looks: 3, comfort: 3, liquidity: 5 }
+  weak_points:
+    - CFNA — стук поршней на холодную, расход масла
+    - цепь ГРМ CFNA к 100–150 тыс.
+    - такси
+  price_history: []
+
+- id: toyota-corolla-e150
+  make: Toyota
+  model: Corolla
+  generation: E150, рестайлинг 2010
+  years: [2008, 2012]
+  body: [sedan]
+  engine: 1.6 1ZR-FE 124 л.с.
+  transmission: 4АКПП U340E (НЕ робот MMT C50A)
+  fuel_city_l: 9
+  price_rub: { from: 750, to: 950 }
+  scores: { reliability: 5, maintenance_cost: 4, looks: 3, comfort: 4, liquidity: 5 }
+  weak_points:
+    - масложор 1ZR на больших пробегах (кольца)
+    - помпа, термостат
+    - цена на грани бюджета
+  price_history: []
+
+- id: skoda-octavia-a5
+  make: Skoda
+  model: Octavia
+  generation: A5 (1Z), рестайлинг 2009
+  years: [2009, 2013]
+  body: [liftback, wagon]
+  engine: 1.6 MPI BSE/CCSA 102 л.с.
+  transmission: 6АКПП Aisin 09G (НЕ DSG)
+  fuel_city_l: 9.5
+  price_rub: { from: 600, to: 800 }
+  scores: { reliability: 4, maintenance_cost: 4, looks: 4, comfort: 4, liquidity: 4 }
+  weak_points:
+    - мотор слабоват под автомат
+    - маслоотделитель, катушки
+    - ищут часто с 1.4/1.8 TSI + DSG — пропускать
+  price_history: []
+
+- id: toyota-corolla-axio-fielder
+  make: Toyota
+  model: Corolla Axio / Fielder
+  generation: E140/E160 (правый руль)
+  years: [2008, 2014]
+  body: [sedan, wagon]
+  engine: 1.5 1NZ-FE / 1NR-FKE
+  transmission: CVT K310/K311
+  fuel_city_l: 7.5
+  price_rub: { from: 600, to: 800 }
+  scores: { reliability: 5, maintenance_cost: 5, looks: 3, comfort: 3, liquidity: 4 }
+  weak_points:
+    - правый руль (обгоны, парковки, банкоматы)
+    - смотреть пробег по аукционному листу (скрутки)
+    - замена масла в вариаторе каждые 40–60 тыс.
+  price_history: []
+
+- id: mazda-3-bl
+  make: Mazda
+  model: "3"
+  generation: BL
+  years: [2009, 2013]
+  body: [sedan, hatchback]
+  engine: 1.6 Z6 105 л.с.
+  transmission: 4АКПП
+  fuel_city_l: 9.5
+  price_rub: { from: 600, to: 800 }
+  scores: { reliability: 4, maintenance_cost: 4, looks: 5, comfort: 4, liquidity: 4 }
+  weak_points:
+    - коррозия арок, порогов, низа дверей
+    - опоры двигателя
+    - слабая шумоизоляция
+  price_history: []
+
+- id: honda-civic-8-4d
+  make: Honda
+  model: Civic 4D
+  generation: VIII (FD)
+  years: [2007, 2011]
+  body: [sedan]
+  engine: 1.8 R18A 140 л.с.
+  transmission: 5АКПП
+  fuel_city_l: 9.5
+  price_rub: { from: 600, to: 800 }
+  scores: { reliability: 4, maintenance_cost: 3, looks: 5, comfort: 3, liquidity: 4 }
+  weak_points:
+    - задняя подвеска (сайлентблоки, развал)
+    - компрессор кондиционера
+    - низкий клиренс
+  price_history: []
+
+- id: kia-cerato-2
+  make: Kia
+  model: Cerato
+  generation: II (TD)
+  years: [2009, 2013]
+  body: [sedan]
+  engine: 1.6 Gamma G4FC 126 л.с.
+  transmission: 4АКПП A4CF
+  fuel_city_l: 9
+  price_rub: { from: 550, to: 750 }
+  scores: { reliability: 4, maintenance_cost: 5, looks: 4, comfort: 4, liquidity: 4 }
+  weak_points:
+    - коррозия на крышке багажника
+    - стуки рулевой рейки
+  price_history: []

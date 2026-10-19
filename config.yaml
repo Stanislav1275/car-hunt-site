@@ -1,0 +1,25 @@
+# Параметры поиска — их читает ежедневная задача
+region:
+  timezone: GMT+7
+  city: "" # TODO: Новосибирск / Красноярск / Барнаул / Томск / Кемерово / Новокузнецк — указать
+  radius_km: 300
+budget:
+  target_rub: 700000
+  max_rub: 800000
+  reserve_rub: 40000 # диагностика, ОСАГО, первое ТО
+filters:
+  transmission: [automatic] # классический АКПП; вариатор — только Toyota/Honda, робот — нет
+  body: [sedan, hatchback, wagon]
+  max_owners: 4
+  max_mileage_km: 220000
+  year_from: 2008
+  right_hand_drive: allowed # в Сибири праворульные японцы дешевле — ок, если не смущает
+  exclude:
+    - такси / каршеринг
+    - ДТП с повреждением силовых элементов
+    - залог / ограничения ГИБДД
+sources:
+  - https://auto.ru
+  - https://auto.drom.ru
+  - https://www.avito.ru/all/avtomobili
+  - https://www.autostat.ru
