@@ -16,7 +16,8 @@
     - стук задней подвески, жёсткая подвеска
     - много бывших такси
     - катализатор на пробегах 150+ тыс.
-  price_history: []
+  price_history:
+    - { date: 2026-10-19, region: РФ, min: 600, median: 650, max: 700, listings: 343, source: "drom, АКПП, пробег ≤220 тыс., цена 600–700, 2011–2017" }
 
 - id: kia-rio-3
   make: Kia
@@ -32,7 +33,8 @@
   weak_points:
     - те же, что у Solaris; сборка чуть лучше
     - такси
-  price_history: []
+  price_history:
+    - { date: 2026-10-19, region: РФ, min: 600, median: 650, max: 700, listings: 151, source: "drom, АКПП, пробег ≤220 тыс., цена 600–700, 2011–2017" }
 
 - id: vw-polo-sedan
   make: Volkswagen
@@ -49,7 +51,8 @@
     - CFNA — стук поршней на холодную, расход масла
     - цепь ГРМ CFNA к 100–150 тыс.
     - такси
-  price_history: []
+  price_history:
+    - { date: 2026-10-19, region: РФ, min: 600, median: 670, max: 700, listings: 122, source: "drom, АКПП, пробег ≤220 тыс., цена 600–700, 2010–2015" }
 
 - id: toyota-corolla-e150
   make: Toyota
@@ -66,7 +69,8 @@
     - масложор 1ZR на больших пробегах (кольца)
     - помпа, термостат
     - цена на грани бюджета
-  price_history: []
+  price_history:
+    - { date: 2026-10-19, region: РФ, min: 600, median: 650, max: 700, listings: 67, source: "drom, АКПП, пробег ≤220 тыс., цена 600–700, 2006–2013 (в основном 2006, E120/E150)" }
 
 - id: skoda-octavia-a5
   make: Skoda
@@ -83,7 +87,8 @@
     - мотор слабоват под автомат
     - маслоотделитель, катушки
     - ищут часто с 1.4/1.8 TSI + DSG — пропускать
-  price_history: []
+  price_history:
+    - { date: 2026-10-19, region: РФ, min: 600, median: 665, max: 700, listings: 29, source: "drom, АКПП, пробег ≤220 тыс., цена 600–700, 2008–2013 (~половина 1.8 TSI)" }
 
 - id: toyota-corolla-axio-fielder
   make: Toyota
@@ -100,7 +105,9 @@
     - правый руль (обгоны, парковки, банкоматы)
     - смотреть пробег по аукционному листу (скрутки)
     - замена масла в вариаторе каждые 40–60 тыс.
-  price_history: []
+  price_history:
+    - { date: 2026-10-19, region: РФ, min: 600, median: 670, max: 700, listings: 172, source: "drom Axio, вариатор, пробег ≤220 тыс., цена 600–700, 2008+" }
+    - { date: 2026-10-19, region: РФ, min: 600, median: 672, max: 700, listings: 94, source: "drom Fielder, вариатор, пробег ≤220 тыс., цена 600–700, 2008+" }
 
 - id: mazda-3-bl
   make: Mazda
@@ -117,7 +124,8 @@
     - коррозия арок, порогов, низа дверей
     - опоры двигателя
     - слабая шумоизоляция
-  price_history: []
+  price_history:
+    - { date: 2026-10-19, region: РФ, min: 600, median: 668, max: 700, listings: 100, source: "drom, АКПП, пробег ≤220 тыс., цена 600–700, 2008+ (58% — BK 2008)" }
 
 - id: honda-civic-8-4d
   make: Honda
@@ -134,7 +142,8 @@
     - задняя подвеска (сайлентблоки, развал)
     - компрессор кондиционера
     - низкий клиренс
-  price_history: []
+  price_history:
+    - { date: 2026-10-19, region: РФ, min: 600, median: 650, max: 700, listings: 40, source: "drom, АКПП, пробег ≤220 тыс., цена 600–700, 2006+" }
 
 - id: kia-cerato-2
   make: Kia
@@ -150,4 +159,5 @@
   weak_points:
     - коррозия на крышке багажника
     - стуки рулевой рейки
-  price_history: []
+  price_history:
+    - { date: 2026-10-19, region: РФ, min: 600, median: 670, max: 700, listings: 31, source: "drom, АКПП, пробег ≤220 тыс., цена 600–700, 2009+" }
