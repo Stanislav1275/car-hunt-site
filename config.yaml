@@ -19,7 +19,30 @@ filters:
     - ДТП с повреждением силовых элементов
     - залог / ограничения ГИБДД
 sources:
-  - https://auto.ru
-  - https://auto.drom.ru
-  - https://www.avito.ru/all/avtomobili
-  - https://www.autostat.ru
+  # Объявления. Если источник недоступен (429, капча, таймаут) — пропускаем и пишем в «Статус источников», сводка не падает.
+  listings:
+    - name: Дром
+      url: https://auto.drom.ru
+      how: WebFetch/curl, до ~40 запросов за запуск
+      notes: бесплатная часть отчёта по VIN, владельцы по ПТС, оценка цены
+    - name: Авито
+      url: https://www.avito.ru/all/avtomobili
+      how: "npm run avito → data/avito/YYYY-MM-DD.json (браузер Playwright, мягко падает на 429)"
+      notes: больше всего объявлений; часто режет по IP
+    - name: Авто.ру
+      url: https://auto.ru/rossiya/cars/used/
+      how: WebFetch, до ~20 запросов
+      notes: отчёт ПроАвто (превью), владельцы, ПТС
+    - name: СберАвто
+      url: https://sberauto.com/cars
+      how: WebFetch
+      notes: дилеры и частники, проверка истории
+    - name: Автотека Маркет / дилеры с пробегом
+      url: https://autoteka.ru
+      how: WebSearch
+      notes: только с полной ценой и VIN на сайте; кредитные автосалоны без цены — 🚩
+  market:
+    - https://www.autostat.ru
+    - https://www.autonews.ru
+    - https://www.zr.ru
+    - https://www.kolesa.ru
