@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-20",
+  "source": "avito",
+  "status": "blocked",
+  "reason": "HTTP 429 / блок по IP на запросе «hyundai solaris»",
+  "queries": [
+    {
+      "id": "hyundai-solaris-1",
+      "q": "hyundai solaris",
+      "url": "https://www.avito.ru/all/avtomobili?q=hyundai%20solaris&pmin=600000&pmax=700000&s=104",
+      "http": 429,
+      "found": 0,
+      "kept": 0
+    }
+  ],
+  "items": []
+}

@@ -8,7 +8,7 @@ budget:
   max_rub: 700000
   reserve_rub: 40000 # диагностика, ОСАГО, первое ТО
 filters:
-  transmission: [automatic] # классический АКПП; вариатор — только Toyota/Honda, робот — нет
+  transmission: [manual, automatic, cvt] # любая; не брать роботы (DSG, PowerShift, MMT, Easytronic, AMT) и АКПП DP0/DP2/AL4; вариатор — только Toyota/Honda
   body: [sedan, hatchback, wagon]
   max_owners: 4
   max_mileage_km: 220000
@@ -26,6 +26,7 @@ sources:
       how: WebFetch/curl, до ~40 запросов за запуск
       notes: бесплатная часть отчёта по VIN, владельцы по ПТС, оценка цены
     - name: Авито
+      enabled: false # выключен по просьбе; true — снова включить
       url: https://www.avito.ru/all/avtomobili
       how: "npm run avito → data/avito/YYYY-MM-DD.json (браузер Playwright, мягко падает на 429)"
       notes: больше всего объявлений; часто режет по IP
