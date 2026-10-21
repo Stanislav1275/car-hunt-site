@@ -40,4 +40,4 @@ npm run avito   # → data/avito/YYYY-MM-DD.json
 
 ## Последняя сводка
 
-[2026-10-20](reports/2026-10-20.html) · [все сводки](reports/)
+[2026-10-21](reports/2026-10-21.html) · [все сводки](reports/)
