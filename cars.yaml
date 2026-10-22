@@ -24,6 +24,8 @@
     - { date: 2026-10-21, region: РФ, min: 600, median: 660, max: 700, listings: 452, source: "drom, МКПП, 2011–2017, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-21, region: РФ, min: 600, median: 644, max: 700, listings: 350, source: "drom, АКПП, 2011–2017, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-21, region: РФ, min: 600, median: 650, max: 700, listings: 317, source: "auto.ru, МКПП, все годы (медиана по 1-й стр.), пробег ≤220 тыс., цена 600–700" }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 664, max: 700, listings: 461, source: "drom, МКПП, 2011–2017, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 650, max: 700, listings: 344, source: "drom, АКПП, 2011–2017, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
 
 - id: kia-rio-3
   make: Kia
@@ -45,6 +47,8 @@
     - { date: 2026-10-20, region: РФ, min: 600, median: 655, max: 700, listings: 297, source: "drom, МКПП, 2011–2017, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-21, region: РФ, min: 610, median: 652, max: 700, listings: 288, source: "drom, МКПП, 2011–2017, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-21, region: РФ, min: 600, median: 650, max: 700, listings: 162, source: "drom, АКПП, 2011–2017, пробег ≤220 тыс., цена 600–700" }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 650, max: 700, listings: 290, source: "drom, МКПП, 2011–2017, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 650, max: 700, listings: 166, source: "drom, АКПП, 2011–2017, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
 
 - id: vw-polo-sedan
   make: Volkswagen
@@ -67,6 +71,8 @@
     - { date: 2026-10-20, region: РФ, min: 600, median: 628, max: 700, listings: 301, source: "drom, МКПП, 2010–2016, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-21, region: РФ, min: 600, median: 650, max: 700, listings: 290, source: "drom, МКПП, 2010–2016, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-21, region: РФ, min: 600, median: 672, max: 700, listings: 133, source: "drom, АКПП, 2010–2016, пробег ≤220 тыс., цена 600–700" }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 650, max: 700, listings: 297, source: "drom, МКПП, 2010–2016, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 670, max: 700, listings: 130, source: "drom, АКПП, 2010–2016, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
 
 - id: toyota-corolla-e150
   make: Toyota
@@ -87,6 +93,8 @@
     - { date: 2026-10-19, region: РФ, min: 600, median: 650, max: 700, listings: 67, source: "drom, АКПП, пробег ≤220 тыс., цена 600–700, 2006–2013 (в основном 2006, E120/E150)" }
     - { date: 2026-10-20, region: РФ, min: 600, median: 640, max: 700, listings: 22, source: "drom, АКПП, 2007–2013, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-20, region: РФ, min: 600, median: 650, max: 700, listings: 89, source: "drom, МКПП, 2007–2013, пробег ≤220 тыс., цена 600–700" }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 650, max: 685, listings: 85, source: "drom, МКПП, 2007–2013, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 650, max: 700, listings: 74, source: "drom, АКПП+вариатор+робот MMT, 2007–2013, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
 
 - id: skoda-octavia-a5
   make: Skoda
@@ -107,6 +115,8 @@
     - { date: 2026-10-19, region: РФ, min: 600, median: 665, max: 700, listings: 29, source: "drom, АКПП, пробег ≤220 тыс., цена 600–700, 2008–2013 (~половина 1.8 TSI)" }
     - { date: 2026-10-20, region: РФ, min: 600, median: 670, max: 700, listings: 29, source: "drom, АКПП, 2008–2013 (~45% 1.8 TSI), пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-20, region: РФ, min: 600, median: 685, max: 700, listings: 105, source: "drom, МКПП, 2008–2013, пробег ≤220 тыс., цена 600–700" }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 662, max: 700, listings: 106, source: "drom, МКПП, 2008–2013, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 680, max: 700, listings: 29, source: "drom, АКПП, 2008–2013, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
 
 - id: toyota-corolla-axio-fielder
   make: Toyota
@@ -130,6 +140,8 @@
     - { date: 2026-10-20, region: РФ, min: 600, median: 695, max: 700, listings: 93, source: "drom Fielder, 2008–2014, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-21, region: РФ, min: 600, median: 660, max: 700, listings: 168, source: "drom Axio, вариатор, 2008–2014, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-21, region: РФ, min: 600, median: 685, max: 700, listings: 90, source: "drom Fielder, 2008–2014, пробег ≤220 тыс., цена 600–700" }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 660, max: 700, listings: 163, source: "drom, Axio, вариатор/АКПП, 2008–2014, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 668, max: 700, listings: 88, source: "drom, Fielder, вариатор/АКПП, 2008–2014, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
 
 - id: mazda-3-bl
   make: Mazda
@@ -150,6 +162,8 @@
     - { date: 2026-10-19, region: РФ, min: 600, median: 668, max: 700, listings: 100, source: "drom, АКПП, пробег ≤220 тыс., цена 600–700, 2008+ (58% — BK 2008)" }
     - { date: 2026-10-20, region: РФ, min: 600, median: 683, max: 700, listings: 43, source: "drom, АКПП, 2009–2013, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-20, region: РФ, min: 600, median: 660, max: 700, listings: 23, source: "drom, МКПП, 2009–2013, пробег ≤220 тыс., цена 600–700" }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 670, max: 700, listings: 24, source: "drom, МКПП, 2009–2013, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 696, max: 700, listings: 43, source: "drom, АКПП, 2009–2013, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
 
 - id: honda-civic-8-4d
   make: Honda
@@ -170,6 +184,8 @@
     - { date: 2026-10-19, region: РФ, min: 600, median: 650, max: 700, listings: 40, source: "drom, АКПП, пробег ≤220 тыс., цена 600–700, 2006+" }
     - { date: 2026-10-20, region: РФ, min: 600, median: 650, max: 700, listings: 39, source: "drom, АКПП, 2006–2011, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-20, region: РФ, min: 600, median: 648, max: 700, listings: 25, source: "drom, МКПП, 2006–2011, пробег ≤220 тыс., цена 600–700" }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 655, max: 700, listings: 26, source: "drom, МКПП, 2006–2011, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 650, max: 700, listings: 93, source: "drom, АКПП+вариатор+робот, 2006–2011, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
 
 - id: kia-cerato-2
   make: Kia
@@ -191,6 +207,8 @@
     - { date: 2026-10-20, region: РФ, min: 600, median: 650, max: 700, listings: 34, source: "drom, МКПП, 2009–2013, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-21, region: РФ, min: 600, median: 645, max: 700, listings: 38, source: "drom, МКПП, 2009–2013, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-21, region: РФ, min: 620, median: 680, max: 700, listings: 32, source: "drom, АКПП, 2009–2013, пробег ≤220 тыс., цена 600–700" }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 650, max: 700, listings: 37, source: "drom, МКПП, 2009–2013, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
+    - { date: 2026-10-22, region: РФ, min: 610, median: 679, max: 700, listings: 34, source: "drom, АКПП, 2009–2013, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
 
 - id: volvo-c30
   make: Volvo
@@ -227,6 +245,8 @@
   price_history:
     - { date: 2026-10-20, region: РФ, min: 600, median: 648, max: 679, listings: 121, source: "drom, АКПП, 2008–2011 (вкл. Focus III 2011), пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-20, region: РФ, min: 600, median: 648, max: 700, listings: 288, source: "drom, МКПП, 2008–2011 (вкл. Focus III 2011), пробег ≤220 тыс., цена 600–700" }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 665, max: 700, listings: 274, source: "drom, МКПП, 2008–2011, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 650, max: 700, listings: 122, source: "drom, АКПП, 2008–2011, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
 
 - id: kia-ceed
   make: Kia
@@ -260,6 +280,8 @@
     - { date: 2026-10-20, region: РФ, min: 600, median: 670, max: 700, listings: 9, source: "drom, АКПП, 2014–2017, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-20, region: РФ, min: 600, median: 666, max: 700, listings: 39, source: "drom, МКПП, 2014–2017, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-21, region: РФ, min: 600, median: 680, max: 700, listings: 9, source: "drom, АКПП, 2014–2017, пробег ≤220 тыс., цена 600–700" }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 662, max: 700, listings: 41, source: "drom, МКПП, 2014–2017, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 680, max: 700, listings: 9, source: "drom, АКПП, 2014–2017, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
 
 - id: mitsubishi-lancer-x
   make: Mitsubishi
@@ -276,3 +298,4 @@
   price_history:
     - { date: 2026-10-20, region: РФ, min: 600, median: 650, max: 700, listings: 55, source: "drom, АКПП, 2008–2012, пробег ≤220 тыс., цена 600–700" }
     - { date: 2026-10-20, region: РФ, min: 600, median: 650, max: 700, listings: 62, source: "drom, МКПП, 2008–2012, пробег ≤220 тыс., цена 600–700" }
+    - { date: 2026-10-22, region: РФ, min: 600, median: 650, max: 700, listings: 62, source: "drom, МКПП, 2008–2012, пробег ≤220 тыс., цена 600–700, медиана по 1-й стр." }
