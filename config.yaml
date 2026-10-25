@@ -38,8 +38,28 @@ sources:
       url: https://sberauto.com/cars
       how: WebFetch
       notes: дилеры и частники, проверка истории
-    - name: Автотека Маркет / дилеры с пробегом
-      url: https://autoteka.ru
+    - name: Fresh Auto
+      url: https://freshauto.ru/catalog/
+      how: WebFetch, до ~10 запросов
+      notes: крупный дилер с пробегом, фиксированные цены, своя проверка
+    - name: Рольф (с пробегом)
+      url: https://www.rolf.ru/cars/used/
+      how: WebFetch, до ~10 запросов
+      notes: дилер, юр. чистота, цены обычно выше рынка
+    - name: Major Expert
+      url: https://www.major-expert.ru/
+      how: WebFetch, до ~10 запросов
+      notes: дилер с пробегом, Москва и регионы
+    - name: Автомир (с пробегом)
+      url: https://www.avtomir.ru/used-cars/
+      how: WebFetch, до ~10 запросов
+      notes: дилер, несколько регионов
+    - name: Юла
+      url: https://youla.ru/rossiya/auto
+      how: WebFetch, до ~10 запросов
+      notes: мало авто, частники; низкий приоритет
+    - name: Прочие дилеры с пробегом
+      url: ""
       how: WebSearch
       notes: только с полной ценой и VIN на сайте; кредитные автосалоны без цены — 🚩
   market:
