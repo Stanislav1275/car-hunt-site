@@ -2398,5 +2398,21 @@
       "details": null
     }
   ],
-  "finished_at": "2026-10-25T05:33:29.984Z"
+  "finished_at": "2026-10-25T05:39:45.296Z",
+  "attempts": [
+    {
+      "started_at": "2026-10-25T05:30:47.415Z",
+      "finished_at": "2026-10-25T05:33:29.984Z",
+      "status": "partial",
+      "reason": "HTTP 403 / блок по IP",
+      "items": 165
+    },
+    {
+      "started_at": "2026-10-25T05:39:34.428Z",
+      "finished_at": "2026-10-25T05:39:45.296Z",
+      "status": "blocked",
+      "reason": "HTTP 403 / блок по IP",
+      "items": 0
+    }
+  ]
 }
